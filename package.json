@@ -1,0 +1,50 @@
+{
+  "name": "koay-router",
+  "version": "1.1.1",
+  "description": "Provide a faster router for Koa, and support configurable routes for Koa or express.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --detectOpenHandles --config jest.config.js"
+  },
+  "keywords": [
+    "koay-router",
+    "koa-router",
+    "koa",
+    "koay",
+    "route",
+    "router"
+  ],
+  "author": "Jesse Feng",
+  "license": "MIT",
+  "dependencies": {
+    "celia": "^5.1.3",
+    "kick-array": "^1.0.4",
+    "koa-compose": "^4.1.0",
+    "kyla": "^1.0.1",
+    "path-to-regexp": "^3.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.15.2",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-node": "^8.0.1",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "jest": "^24.5.0",
+    "koa": "^2.7.0",
+    "supertest": "^4.0.2"
+  },
+  "directories": {
+    "example": "examples",
+    "lib": "lib",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/koayjs/koay-router.git"
+  },
+  "bugs": {
+    "url": "https://github.com/koayjs/koay-router/issues"
+  },
+  "homepage": "https://github.com/koayjs/koay-router#readme"
+}
